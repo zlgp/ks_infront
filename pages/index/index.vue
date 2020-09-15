@@ -22,13 +22,13 @@
 				</view>
 				<view class="label_movie">
 					<view class="img_box" v-for="(item,index) in movieList_1.list" :key="index">
-						<goDetail  :movieID="item.id">
+						<goDetail :movieID="item.id">
 							<u-image :src="item.cover" :lazy-load="true" width="90%" height="200rpx" :border-radius="5"></u-image>
 							<view class="movie_title">{{item.title}}</view>
 							<view class="movie_epi_tt">共{{item.epi_tt}}集</view>
 							<view class="movie_ended" v-if="item.ended==0">已完结</view>
 							<view class="movie_ended" v-if="item.ended==1">连载中</view>
-							</goDetail>
+						</goDetail>
 					</view>
 
 				</view>
@@ -47,6 +47,54 @@
 				</view>
 				<view class="label_movie">
 					<view class="img_box" v-for="(item,index) in movieList_2.list" :key="index">
+						<goDetail :movieID="item.id">
+							<u-image :src="item.cover" :lazy-load="true" height="200rpx" :border-radius="5" width="90%"></u-image>
+							<view class="movie_title">{{item.title}}</view>
+							<view class="movie_epi_tt">共{{item.epi_tt}}集</view>
+							<view class="movie_ended" v-if="item.ended==0">已完结</view>
+							<view class="movie_ended" v-if="item.ended==1">连载中</view>
+						</goDetail>
+					</view>
+				</view>
+
+			</view>
+			<view class="label_box">
+				<view class="label_title">
+					<view class="label_name">
+						{{movieList_3.label}}
+					</view>
+					<goMore :sid="movieList_3.label_id">
+						<view class="label_more">
+							更多
+						</view>
+					</goMore>
+				</view>
+				<view class="label_movie">
+					<view class="img_box" v-for="(item,index) in movieList_3.list" :key="index">
+						<goDetail :movieID="item.id">
+							<u-image :src="item.cover" :lazy-load="true" height="200rpx" :border-radius="5" width="90%"></u-image>
+							<view class="movie_title">{{item.title}}</view>
+							<view class="movie_epi_tt">共{{item.epi_tt}}集</view>
+							<view class="movie_ended" v-if="item.ended==0">已完结</view>
+							<view class="movie_ended" v-if="item.ended==1">连载中</view>
+						</goDetail>
+					</view>
+				</view>
+
+			</view>
+			<view class="label_box">
+				<view class="label_title">
+					<view class="label_name">
+						{{movieList_4.label}}
+					</view>
+					<goMore :sid="movieList_4.label_id">
+						<view class="label_more">
+							更多
+						</view>
+					</goMore>
+				</view>
+				<view class="label_movie">
+					<view class="img_box" v-for="(item,index) in movieList_4.list" :key="index">
 						<goDetail :movieID="item.id">
 							<u-image :src="item.cover" :lazy-load="true" height="200rpx" :border-radius="5" width="90%"></u-image>
 							<view class="movie_title">{{item.title}}</view>
@@ -80,6 +128,8 @@
 				tagList: [],
 				movieList_1: {},
 				movieList_2: {},
+				movieList_3: {},
+				movieList_4: {}
 			}
 		},
 		async onShow() {
@@ -89,6 +139,8 @@
 			})
 			await this.getMovie(1)
 			await this.getMovie(2)
+			await this.getMovie(3)
+			await this.getMovie(4)
 		},
 		methods: {
 			// 请求获取影片
@@ -103,6 +155,11 @@
 						case 2:
 							this.movieList_2 = res.data
 							break;
+						case 3:
+							this.movieList_3 = res.data
+						case 4:
+							this.movieList_4 = res.data
+
 					}
 
 				})

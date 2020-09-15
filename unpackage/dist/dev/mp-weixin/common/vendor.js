@@ -7879,9 +7879,9 @@ module.exports = g;
 
 /***/ }),
 /* 4 */
-/*!****************************!*\
-  !*** D:/htd/ks/pages.json ***!
-  \****************************/
+/*!************************************!*\
+  !*** D:/htd/ks_infront/pages.json ***!
+  \************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -9134,9 +9134,9 @@ function normalizeComponent (
 
 /***/ }),
 /* 12 */
-/*!********************************!*\
-  !*** D:/htd/ks/store/index.js ***!
-  \********************************/
+/*!****************************************!*\
+  !*** D:/htd/ks_infront/store/index.js ***!
+  \****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9177,9 +9177,9 @@ store;exports.default = _default;
 
 /***/ }),
 /* 13 */
-/*!**********************************!*\
-  !*** D:/htd/ks/until/request.js ***!
-  \**********************************/
+/*!******************************************!*\
+  !*** D:/htd/ks_infront/until/request.js ***!
+  \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9236,9 +9236,9 @@ function _default(method, url, data) {
 
 /***/ }),
 /* 14 */
-/*!**********************************!*\
-  !*** D:/htd/ks/config/config.js ***!
-  \**********************************/
+/*!******************************************!*\
+  !*** D:/htd/ks_infront/config/config.js ***!
+  \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9252,9 +9252,9 @@ module.exports = baseURL;
 
 /***/ }),
 /* 15 */
-/*!************************************************!*\
-  !*** D:/htd/ks/node_modules/js-md5/src/md5.js ***!
-  \************************************************/
+/*!********************************************************!*\
+  !*** D:/htd/ks_infront/node_modules/js-md5/src/md5.js ***!
+  \********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10316,9 +10316,9 @@ module.exports = __webpack_amd_options__;
 
 /***/ }),
 /* 19 */
-/*!************************************************!*\
-  !*** D:/htd/ks/node_modules/uview-ui/index.js ***!
-  \************************************************/
+/*!********************************************************!*\
+  !*** D:/htd/ks_infront/node_modules/uview-ui/index.js ***!
+  \********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10462,9 +10462,9 @@ var install = function install(Vue) {
 
 /***/ }),
 /* 20 */
-/*!***********************************************************!*\
-  !*** D:/htd/ks/node_modules/uview-ui/libs/mixin/mixin.js ***!
-  \***********************************************************/
+/*!*******************************************************************!*\
+  !*** D:/htd/ks_infront/node_modules/uview-ui/libs/mixin/mixin.js ***!
+  \*******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10503,9 +10503,9 @@ var install = function install(Vue) {
 
 /***/ }),
 /* 21 */
-/*!*************************************************************!*\
-  !*** D:/htd/ks/node_modules/uview-ui/libs/request/index.js ***!
-  \*************************************************************/
+/*!*********************************************************************!*\
+  !*** D:/htd/ks_infront/node_modules/uview-ui/libs/request/index.js ***!
+  \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10683,9 +10683,9 @@ new Request();exports.default = _default;
 
 /***/ }),
 /* 22 */
-/*!******************************************************************!*\
-  !*** D:/htd/ks/node_modules/uview-ui/libs/function/deepMerge.js ***!
-  \******************************************************************/
+/*!**************************************************************************!*\
+  !*** D:/htd/ks_infront/node_modules/uview-ui/libs/function/deepMerge.js ***!
+  \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10723,9 +10723,9 @@ deepMerge;exports.default = _default;
 
 /***/ }),
 /* 23 */
-/*!******************************************************************!*\
-  !*** D:/htd/ks/node_modules/uview-ui/libs/function/deepClone.js ***!
-  \******************************************************************/
+/*!**************************************************************************!*\
+  !*** D:/htd/ks_infront/node_modules/uview-ui/libs/function/deepClone.js ***!
+  \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10756,9 +10756,9 @@ deepClone;exports.default = _default;
 
 /***/ }),
 /* 24 */
-/*!*************************************************************!*\
-  !*** D:/htd/ks/node_modules/uview-ui/libs/function/test.js ***!
-  \*************************************************************/
+/*!*********************************************************************!*\
+  !*** D:/htd/ks_infront/node_modules/uview-ui/libs/function/test.js ***!
+  \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10998,9 +10998,9 @@ function code(value) {var len = arguments.length > 1 && arguments[1] !== undefin
 
 /***/ }),
 /* 25 */
-/*!********************************************************************!*\
-  !*** D:/htd/ks/node_modules/uview-ui/libs/function/queryParams.js ***!
-  \********************************************************************/
+/*!****************************************************************************!*\
+  !*** D:/htd/ks_infront/node_modules/uview-ui/libs/function/queryParams.js ***!
+  \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11066,9 +11066,9 @@ queryParams;exports.default = _default;
 
 /***/ }),
 /* 26 */
-/*!**************************************************************!*\
-  !*** D:/htd/ks/node_modules/uview-ui/libs/function/route.js ***!
-  \**************************************************************/
+/*!**********************************************************************!*\
+  !*** D:/htd/ks_infront/node_modules/uview-ui/libs/function/route.js ***!
+  \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11162,9 +11162,9 @@ route;exports.default = _default;
 
 /***/ }),
 /* 27 */
-/*!*******************************************************************!*\
-  !*** D:/htd/ks/node_modules/uview-ui/libs/function/timeFormat.js ***!
-  \*******************************************************************/
+/*!***************************************************************************!*\
+  !*** D:/htd/ks_infront/node_modules/uview-ui/libs/function/timeFormat.js ***!
+  \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11224,9 +11224,9 @@ timeFormat;exports.default = _default;
 
 /***/ }),
 /* 28 */
-/*!*****************************************************************!*\
-  !*** D:/htd/ks/node_modules/uview-ui/libs/function/timeFrom.js ***!
-  \*****************************************************************/
+/*!*************************************************************************!*\
+  !*** D:/htd/ks_infront/node_modules/uview-ui/libs/function/timeFrom.js ***!
+  \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11280,9 +11280,9 @@ timeFrom;exports.default = _default;
 
 /***/ }),
 /* 29 */
-/*!**********************************************************************!*\
-  !*** D:/htd/ks/node_modules/uview-ui/libs/function/colorGradient.js ***!
-  \**********************************************************************/
+/*!******************************************************************************!*\
+  !*** D:/htd/ks_infront/node_modules/uview-ui/libs/function/colorGradient.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11389,9 +11389,9 @@ function rgbToHex(rgb) {
 
 /***/ }),
 /* 30 */
-/*!*************************************************************!*\
-  !*** D:/htd/ks/node_modules/uview-ui/libs/function/guid.js ***!
-  \*************************************************************/
+/*!*********************************************************************!*\
+  !*** D:/htd/ks_infront/node_modules/uview-ui/libs/function/guid.js ***!
+  \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11440,9 +11440,9 @@ guid;exports.default = _default;
 
 /***/ }),
 /* 31 */
-/*!**************************************************************!*\
-  !*** D:/htd/ks/node_modules/uview-ui/libs/function/color.js ***!
-  \**************************************************************/
+/*!**********************************************************************!*\
+  !*** D:/htd/ks_infront/node_modules/uview-ui/libs/function/color.js ***!
+  \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11487,9 +11487,9 @@ color;exports.default = _default;
 
 /***/ }),
 /* 32 */
-/*!******************************************************************!*\
-  !*** D:/htd/ks/node_modules/uview-ui/libs/function/type2icon.js ***!
-  \******************************************************************/
+/*!**************************************************************************!*\
+  !*** D:/htd/ks_infront/node_modules/uview-ui/libs/function/type2icon.js ***!
+  \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11532,9 +11532,9 @@ type2icon;exports.default = _default;
 
 /***/ }),
 /* 33 */
-/*!********************************************************************!*\
-  !*** D:/htd/ks/node_modules/uview-ui/libs/function/randomArray.js ***!
-  \********************************************************************/
+/*!****************************************************************************!*\
+  !*** D:/htd/ks_infront/node_modules/uview-ui/libs/function/randomArray.js ***!
+  \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11549,9 +11549,9 @@ randomArray;exports.default = _default;
 
 /***/ }),
 /* 34 */
-/*!****************************************************************!*\
-  !*** D:/htd/ks/node_modules/uview-ui/libs/function/addUnit.js ***!
-  \****************************************************************/
+/*!************************************************************************!*\
+  !*** D:/htd/ks_infront/node_modules/uview-ui/libs/function/addUnit.js ***!
+  \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11567,9 +11567,9 @@ function addUnit() {var value = arguments.length > 0 && arguments[0] !== undefin
 
 /***/ }),
 /* 35 */
-/*!***************************************************************!*\
-  !*** D:/htd/ks/node_modules/uview-ui/libs/function/random.js ***!
-  \***************************************************************/
+/*!***********************************************************************!*\
+  !*** D:/htd/ks_infront/node_modules/uview-ui/libs/function/random.js ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11587,9 +11587,9 @@ random;exports.default = _default;
 
 /***/ }),
 /* 36 */
-/*!*************************************************************!*\
-  !*** D:/htd/ks/node_modules/uview-ui/libs/function/trim.js ***!
-  \*************************************************************/
+/*!*********************************************************************!*\
+  !*** D:/htd/ks_infront/node_modules/uview-ui/libs/function/trim.js ***!
+  \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11612,9 +11612,9 @@ trim;exports.default = _default;
 
 /***/ }),
 /* 37 */
-/*!**************************************************************!*\
-  !*** D:/htd/ks/node_modules/uview-ui/libs/function/toast.js ***!
-  \**************************************************************/
+/*!**********************************************************************!*\
+  !*** D:/htd/ks_infront/node_modules/uview-ui/libs/function/toast.js ***!
+  \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11632,9 +11632,9 @@ toast;exports.default = _default;
 
 /***/ }),
 /* 38 */
-/*!******************************************************************!*\
-  !*** D:/htd/ks/node_modules/uview-ui/libs/function/getParent.js ***!
-  \******************************************************************/
+/*!**************************************************************************!*\
+  !*** D:/htd/ks_infront/node_modules/uview-ui/libs/function/getParent.js ***!
+  \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11689,9 +11689,9 @@ function getParent(name, keys) {
 
 /***/ }),
 /* 39 */
-/*!****************************************************************!*\
-  !*** D:/htd/ks/node_modules/uview-ui/libs/function/$parent.js ***!
-  \****************************************************************/
+/*!************************************************************************!*\
+  !*** D:/htd/ks_infront/node_modules/uview-ui/libs/function/$parent.js ***!
+  \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11717,9 +11717,9 @@ function $parent() {var name = arguments.length > 0 && arguments[0] !== undefine
 
 /***/ }),
 /* 40 */
-/*!************************************************************!*\
-  !*** D:/htd/ks/node_modules/uview-ui/libs/function/sys.js ***!
-  \************************************************************/
+/*!********************************************************************!*\
+  !*** D:/htd/ks_infront/node_modules/uview-ui/libs/function/sys.js ***!
+  \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11735,9 +11735,9 @@ function sys() {
 
 /***/ }),
 /* 41 */
-/*!*****************************************************************!*\
-  !*** D:/htd/ks/node_modules/uview-ui/libs/function/debounce.js ***!
-  \*****************************************************************/
+/*!*************************************************************************!*\
+  !*** D:/htd/ks_infront/node_modules/uview-ui/libs/function/debounce.js ***!
+  \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11774,9 +11774,9 @@ debounce;exports.default = _default;
 
 /***/ }),
 /* 42 */
-/*!*****************************************************************!*\
-  !*** D:/htd/ks/node_modules/uview-ui/libs/function/throttle.js ***!
-  \*****************************************************************/
+/*!*************************************************************************!*\
+  !*** D:/htd/ks_infront/node_modules/uview-ui/libs/function/throttle.js ***!
+  \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11816,9 +11816,9 @@ throttle;exports.default = _default;
 
 /***/ }),
 /* 43 */
-/*!*************************************************************!*\
-  !*** D:/htd/ks/node_modules/uview-ui/libs/config/config.js ***!
-  \*************************************************************/
+/*!*********************************************************************!*\
+  !*** D:/htd/ks_infront/node_modules/uview-ui/libs/config/config.js ***!
+  \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11839,9 +11839,9 @@ var version = '1.6.9';var _default =
 
 /***/ }),
 /* 44 */
-/*!*************************************************************!*\
-  !*** D:/htd/ks/node_modules/uview-ui/libs/config/zIndex.js ***!
-  \*************************************************************/
+/*!*********************************************************************!*\
+  !*** D:/htd/ks_infront/node_modules/uview-ui/libs/config/zIndex.js ***!
+  \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11873,84 +11873,17 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* 48 */,
 /* 49 */,
 /* 50 */,
-/* 51 */,
-/* 52 */,
-/* 53 */,
-/* 54 */,
-/* 55 */,
-/* 56 */,
-/* 57 */,
-/* 58 */,
-/* 59 */,
-/* 60 */,
-/* 61 */,
-/* 62 */,
-/* 63 */,
-/* 64 */,
-/* 65 */,
-/* 66 */,
-/* 67 */,
-/* 68 */,
-/* 69 */,
-/* 70 */,
-/* 71 */,
-/* 72 */,
-/* 73 */,
-/* 74 */,
-/* 75 */,
-/* 76 */,
-/* 77 */,
-/* 78 */,
-/* 79 */,
-/* 80 */,
-/* 81 */,
-/* 82 */,
-/* 83 */,
-/* 84 */,
-/* 85 */,
-/* 86 */,
-/* 87 */,
-/* 88 */,
-/* 89 */,
-/* 90 */,
-/* 91 */,
-/* 92 */,
-/* 93 */,
-/* 94 */,
-/* 95 */,
-/* 96 */,
-/* 97 */,
-/* 98 */,
-/* 99 */,
-/* 100 */,
-/* 101 */,
-/* 102 */,
-/* 103 */,
-/* 104 */,
-/* 105 */,
-/* 106 */,
-/* 107 */,
-/* 108 */,
-/* 109 */,
-/* 110 */,
-/* 111 */,
-/* 112 */,
-/* 113 */,
-/* 114 */,
-/* 115 */,
-/* 116 */,
-/* 117 */,
-/* 118 */
+/* 51 */
 /*!**********************************************************!*\
   !*** ./node_modules/@babel/runtime/regenerator/index.js ***!
   \**********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! regenerator-runtime */ 119);
+module.exports = __webpack_require__(/*! regenerator-runtime */ 52);
 
 /***/ }),
-/* 119 */
+/* 52 */
 /*!************************************************************!*\
   !*** ./node_modules/regenerator-runtime/runtime-module.js ***!
   \************************************************************/
@@ -11981,7 +11914,7 @@ var oldRuntime = hadRuntime && g.regeneratorRuntime;
 // Force reevalutation of runtime.js.
 g.regeneratorRuntime = undefined;
 
-module.exports = __webpack_require__(/*! ./runtime */ 120);
+module.exports = __webpack_require__(/*! ./runtime */ 53);
 
 if (hadRuntime) {
   // Restore the original runtime.
@@ -11997,7 +11930,7 @@ if (hadRuntime) {
 
 
 /***/ }),
-/* 120 */
+/* 53 */
 /*!*****************************************************!*\
   !*** ./node_modules/regenerator-runtime/runtime.js ***!
   \*****************************************************/
