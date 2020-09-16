@@ -1,12 +1,13 @@
 {
   "pages": [
+    "pages/movieDetail/movieDetail",
     "pages/index/index",
-    "pages/login/login",
-    "pages/register/register",
-    "pages/newMovie/newMovie",
+    "pages/mine/mine",
     "pages/hot/hot",
     "pages/search/search",
-    "pages/mine/mine"
+    "pages/newMovie/newMovie",
+    "pages/login/login",
+    "pages/register/register"
   ],
   "subPackages": [],
   "window": {
@@ -49,10 +50,9 @@
         "pagePath": "pages/mine/mine",
         "iconPath": "static/icon/_my.png",
         "selectedIconPath": "static/icon/my.png",
-        "text": "我的"
+        "text": "个人中心"
       }
     ]
   },
-  "usingComponents": {},
-  "sitemapLocation": "sitemap91.json"
+  "usingComponents": {}
 }

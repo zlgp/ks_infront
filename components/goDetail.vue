@@ -10,7 +10,7 @@
 		methods: {
 			goDetail() {
 				uni.navigateTo({
-					url: ""
+					url:`../movieDetail/movieDetail?id=${this.movieID}`
 				})
 			}
 		}

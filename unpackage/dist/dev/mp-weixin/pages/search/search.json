@@ -1,4 +1,9 @@
 {
   "navigationBarTitleText": "搜索",
-  "usingComponents": {}
+  "usingComponents": {
+    "u-search": "/node-modules/uview-ui/components/u-search/u-search",
+    "u-image": "/node-modules/uview-ui/components/u-image/u-image",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button",
+    "go-detail": "/components/goDetail"
+  }
 }

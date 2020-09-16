@@ -1,4 +1,10 @@
 {
   "navigationBarTitleText": "热门资源",
-  "usingComponents": {}
+  "usingComponents": {
+    "u-subsection": "/node-modules/uview-ui/components/u-subsection/u-subsection",
+    "day-list": "/components/hotSon/dayList",
+    "week-list": "/components/hotSon/weekList",
+    "whole-list": "/components/hotSon/wholeList",
+    "go-detail": "/components/goDetail"
+  }
 }

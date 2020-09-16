@@ -157,8 +157,10 @@
 							break;
 						case 3:
 							this.movieList_3 = res.data
+							break;
 						case 4:
 							this.movieList_4 = res.data
+							break;
 
 					}
 
