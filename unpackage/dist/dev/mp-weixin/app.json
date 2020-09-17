@@ -1,12 +1,13 @@
 {
   "pages": [
+    "pages/shopping_car/car",
     "pages/movieDetail/movieDetail",
+    "pages/login/login",
     "pages/index/index",
     "pages/mine/mine",
     "pages/hot/hot",
     "pages/search/search",
     "pages/newMovie/newMovie",
-    "pages/login/login",
     "pages/register/register"
   ],
   "subPackages": [],

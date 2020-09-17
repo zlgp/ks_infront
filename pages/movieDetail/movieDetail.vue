@@ -1,5 +1,10 @@
 <template>
 	<view class="movieDetail">
+		<view class="back_btn">
+			<view class="">
+				<button type="default" @click="back()">返回</button>
+			</view>
+		</view>
 		<view class="video_box">
 			<video :src="movieMsg.audio_url" controls :poster="movieMsg.thumbnail" class="audio_url"></video>
 		</view>
@@ -36,9 +41,9 @@
 		</view>
 		<view class="btn">
 			<view class="btn_box">
-				<u-button type="warning" shape="circle" class="btn_box">加入购物车</u-button>
+				<u-button type="warning" shape="circle" class="btn_box" @click="joinCar()">加入购物车</u-button>
 			</view>
-			<u-button type="warning" shape="circle" class="btn_box">立即下单</u-button>
+			<u-button type="warning" shape="circle" class="btn_box" @click="order()">立即下单</u-button>
 		</view>
 
 	</view>
@@ -50,7 +55,7 @@
 	export default {
 		data() {
 			return {
-				movieId: 1,
+				movieId: "",
 				sid: "",
 				movieMsg: {},
 				// 获取集数
@@ -62,13 +67,18 @@
 			}
 		},
 		async onLoad(option) {
-			// this.movieId = option.id
+			this.movieId = option.id
 			await this.getMovieDetail()
 			await this.getCurrList()
 			await this.getRuleType()
 			await this.getWebType()
 		},
 		methods: {
+			back() {
+				uni.switchTab({
+					url: "../index/index"
+				})
+			},
 			// 获取电影详情
 			getMovieDetail() {
 				this.request('post', '/getMovieDetail', {
@@ -76,7 +86,7 @@
 					sid: this.sid
 				}).then(res => {
 					this.movieMsg = res.data
-
+					this.sid = this.movieMsg.sid
 				})
 			},
 			// 获取集数
@@ -103,13 +113,37 @@
 			async changeCurr(sid) {
 				this.sid = sid
 				await this.getMovieDetail()
+			},
+			// 加入购物车
+			joinCar() {
+				this.request('post', '/addCar', {
+					sid: this.sid,
+					ruleid: this.ruleid,
+					webid: this.webid
+				}).then(res => {})
+			},
+			// 立即下单
+			order() {
+				this.request('post', '/addOrder', {
+					sid: this.sid,
+					ruleid: this.ruleid,
+					webid: this.webid
+				}).then(res => {
+
+				})
 			}
+
 		}
 	}
 </script>
 
 <style lang="scss">
 	.movieDetail {
+		.back_btn{
+			display: flex;
+		    justify-content: flex-start;
+			padding: 10rpx 30rpx;
+		}
 		.video_box {
 			width: 100%;
 
@@ -171,7 +205,8 @@
 			margin-top: 50rpx;
 			height: 300rpx;
 			overflow: hidden;
-			.btn_box{
+
+			.btn_box {
 				margin-bottom: 50rpx;
 			}
 		}
