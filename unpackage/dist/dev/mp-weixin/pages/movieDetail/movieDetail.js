@@ -94,19 +94,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "components", function() { return components; });
 var components = {
   uCollapse: function() {
-    return __webpack_require__.e(/*! import() | node-modules/uview-ui/components/u-collapse/u-collapse */ "node-modules/uview-ui/components/u-collapse/u-collapse").then(__webpack_require__.bind(null, /*! uview-ui/components/u-collapse/u-collapse.vue */ 110))
+    return __webpack_require__.e(/*! import() | node-modules/uview-ui/components/u-collapse/u-collapse */ "node-modules/uview-ui/components/u-collapse/u-collapse").then(__webpack_require__.bind(null, /*! uview-ui/components/u-collapse/u-collapse.vue */ 147))
   },
   uCollapseItem: function() {
-    return __webpack_require__.e(/*! import() | node-modules/uview-ui/components/u-collapse-item/u-collapse-item */ "node-modules/uview-ui/components/u-collapse-item/u-collapse-item").then(__webpack_require__.bind(null, /*! uview-ui/components/u-collapse-item/u-collapse-item.vue */ 117))
+    return __webpack_require__.e(/*! import() | node-modules/uview-ui/components/u-collapse-item/u-collapse-item */ "node-modules/uview-ui/components/u-collapse-item/u-collapse-item").then(__webpack_require__.bind(null, /*! uview-ui/components/u-collapse-item/u-collapse-item.vue */ 154))
   },
   uButton: function() {
-    return __webpack_require__.e(/*! import() | node-modules/uview-ui/components/u-button/u-button */ "node-modules/uview-ui/components/u-button/u-button").then(__webpack_require__.bind(null, /*! uview-ui/components/u-button/u-button.vue */ 124))
+    return __webpack_require__.e(/*! import() | node-modules/uview-ui/components/u-button/u-button */ "node-modules/uview-ui/components/u-button/u-button").then(__webpack_require__.bind(null, /*! uview-ui/components/u-button/u-button.vue */ 140))
   },
   uDropdown: function() {
-    return __webpack_require__.e(/*! import() | node-modules/uview-ui/components/u-dropdown/u-dropdown */ "node-modules/uview-ui/components/u-dropdown/u-dropdown").then(__webpack_require__.bind(null, /*! uview-ui/components/u-dropdown/u-dropdown.vue */ 131))
+    return __webpack_require__.e(/*! import() | node-modules/uview-ui/components/u-dropdown/u-dropdown */ "node-modules/uview-ui/components/u-dropdown/u-dropdown").then(__webpack_require__.bind(null, /*! uview-ui/components/u-dropdown/u-dropdown.vue */ 161))
   },
   uDropdownItem: function() {
-    return __webpack_require__.e(/*! import() | node-modules/uview-ui/components/u-dropdown-item/u-dropdown-item */ "node-modules/uview-ui/components/u-dropdown-item/u-dropdown-item").then(__webpack_require__.bind(null, /*! uview-ui/components/u-dropdown-item/u-dropdown-item.vue */ 138))
+    return __webpack_require__.e(/*! import() | node-modules/uview-ui/components/u-dropdown-item/u-dropdown-item */ "node-modules/uview-ui/components/u-dropdown-item/u-dropdown-item").then(__webpack_require__.bind(null, /*! uview-ui/components/u-dropdown-item/u-dropdown-item.vue */ 168))
   }
 }
 var render = function() {
@@ -268,7 +268,11 @@ var _default =
         sid: this.sid,
         ruleid: this.ruleid,
         webid: this.webid }).
-      then(function (res) {});
+      then(function (res) {
+        uni.navigateTo({
+          url: "../shopping_car/car" });
+
+      });
     },
     // 立即下单
     order: function order() {

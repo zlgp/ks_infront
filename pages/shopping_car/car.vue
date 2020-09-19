@@ -1,9 +1,8 @@
 <template>
 	<view class="car">
+
 		<view class="car_content">
-
 			<u-checkbox-group :wrap="true">
-
 				<u-checkbox @change="checkboxChange()" v-model="item.checked" v-for="(item, index) in carList" :key="index" :name="item.price"
 				 :detail='item.checked' shape="circle">
 					<view class="checkbox">
@@ -34,7 +33,7 @@
 
 			<view class="operation">
 				<u-button @click="checkedAll" size="mini">全选/反选</u-button>
-				<u-button size="mini">删除</u-button>
+				<u-button size="mini" @click="del()">删除</u-button>
 				<view class="">
 					合计:${{total}}
 				</view>
@@ -56,7 +55,8 @@
 				// 总额
 				total: 0,
 				// 全选的数量
-				total_num: 0
+				total_num: 0,
+				id_list: []
 			}
 		},
 		onShow() {
@@ -78,8 +78,14 @@
 					this.total_num += 1
 					this.total += parseInt(e.name)
 				}
+				this.id_list = []
+				this.carList.forEach((element) => {
+					if (element.checked == true) {
+						this.id_list.push(element.audio_id)
+					}
+				})
 			},
-
+		
 			// 全选
 			checkedAll() {
 				// 全选都为0,再去加
@@ -87,22 +93,29 @@
 				this.total = 0
 				if (this.checkall == false) {
 					this.checkall = true
+					this.id_list = []
 					this.carList.map(val => {
 						val.checked = true;
 						if (val.checked = true) {
 							this.total_num++
 							this.total += parseInt(val.price)
+							this.id_list.push(val.audio_id)
 						}
 					})
 
 				} else {
 					this.checkall = false
+					this.id_list = []
 					this.carList.map(val => {
 						val.checked = false;
 					})
 					this.total_num = 0
 					this.total = 0
 				}
+			},
+			async del(){
+				await this.request('post','/deletById',{audio_id:this.id_list}).then(res=>{})
+			    await this.getCarList()
 			}
 		}
 	}

@@ -17,7 +17,7 @@
 			</view>
 			<view class="car box">
 				<navigator url="">
-					<image src="../../static/img/icon_two.png" mode="widthFix"></image>
+					<image src="../../static/img/icon_two.png" mode="widthFix" @click="goCar()"></image>
 					<view>{{userInfo.car_num}}</view>
 				</navigator>
 			</view>
@@ -62,7 +62,12 @@
 				})
 			},
 			// 印射为this.$store.commit("logout");
-			...mapMutations(['logout'])
+			...mapMutations(['logout']),
+			goCar(){
+				uni.navigateTo({
+					url:"../shopping_car/car"
+				})
+			}
 		},
 
 

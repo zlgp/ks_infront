@@ -120,7 +120,11 @@
 					sid: this.sid,
 					ruleid: this.ruleid,
 					webid: this.webid
-				}).then(res => {})
+				}).then(res => {
+					uni.navigateTo({
+						url:"../shopping_car/car"
+					})
+				})
 			},
 			// 立即下单
 			order() {
